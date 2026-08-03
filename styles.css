@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px;
+  margin: 0;
+}
+
+.contenedor {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 420px;
+}
+
+h1 {
+  text-align: center;
+  color: #b30000;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #b30000;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #b30000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #8a0000;
+}
+
+.error {
+  color: #c0392b;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* La sección de resultado empieza oculta */
+.oculto {
+  display: none;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 8px;
+  background-color: #eafbea;
+  border: 1px solid #a8e6a8;
+}
+
+.resultado h2 {
+  margin-top: 0;
+  color: #256d25;
+}
+
+.resultado p {
+  margin: 6px 0;
+  color: #333;
+}
